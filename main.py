@@ -4,7 +4,7 @@ from base64 import b64decode
 
 app = Flask(__name__)
 
-@app.route("/download")
+@app.route("/api/download")
 def downloadVideo():
     url = request.args.get('url')
     p = Pintrest(url)
