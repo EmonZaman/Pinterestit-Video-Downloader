@@ -104,11 +104,11 @@ The API responds with a JSON object containing the type and download link of the
 
 ```bash
 [
-    {
+{
   "link": "https://v1.pinimg.com/videos/mc/expMp4/2c/20/bd/2c20bd0f3853e131777a63c6c9e52ac6_t1.mp4",
   "success": true,
   "type": "video"
-    }
+}
 
 ]
 ```
@@ -118,11 +118,11 @@ The API responds with a JSON object containing the type and download link of the
 
 ```bash
 [
-   {
+{
   "link": "https://i.pinimg.com/originals/9a/3c/a6/9a3ca6e5ab73279a931024ae8cd7c8a7.jpg",
   "success": true,
   "type": "image"
-   }
+}
 
 
 ]
@@ -133,11 +133,11 @@ The API responds with a JSON object containing the type and download link of the
 
 ```bash
 [
-    {
+{
   "link": "https://i.pinimg.com/originals/e5/94/34/e59434c84ca59869537899717a159cac.gif",
   "success": true,
   "type": "image"
-    }
+}
 
 
 ]
@@ -157,11 +157,11 @@ If an invalid URL is given, the API responds with:
 
 ```bash
 [
-    {
+{
   "link": "",
   "success": false,
   "type": ""
-    }
+}
 
 ]
 ```
@@ -170,7 +170,7 @@ If unable to fetch video information, the API responds with:
 
 ```bash
 [
-   {
+{
   "link": "",
   "success": false,
   "type": ""
